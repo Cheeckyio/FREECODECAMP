@@ -1,5 +1,5 @@
 /*Things i learnt in this project
-1.overflow:determines what happens to content when it overlows it container 
+1.overflow:determines what happens to content when it overflows it container 
 has different values 
 1.hidden hides content when it exceeds container dimension
 2.scroll adds a scroll bar whem content overflows
@@ -8,8 +8,18 @@ has different values
 learnt about filter:blur(radius)--a css property used to blur elements making them appear less sharp
 the radius is measured in pixels
 
-3s a CSS property used to rotate an element around a fixed point. It allows you 
+transform:rotate(+/-) a CSS property used to rotate an element around a fixed point. It allows you 
 to specify the angle of rotation in degrees, radians, gradians, or turns.
+
+
+box shadow property adds a shadow effect to the element .it has these values
+offset-x: The horizontal offset of the shadow.
+offset-y: The vertical offset of the shadow.
+blur-radius: The blur radius of the shadow.
+spread-radius: The spread radius of the shadow.
+color: The color of the shadow.
+inset: Optional keyword to create an inner shadow.
+ALL EXAMPLES ARE PRACTISED WITH CODE OUTSIDE OF THIS PROJECT
 */
 
 

@@ -33,12 +33,35 @@
     width: 100%;
     max-width: 350px;
     height: 300px;
-    object-fit: cover;
+    object-fit: cover; /*The object-fit property in CSS is used to control how an image or other 
+    replaceable content is sized and positioned within its container. 
+    It allows you to specify how the content should be scaled or cropped to fit the available space.*
+    it has these values
+    fill..the default value      
+    contain..scales the image to fit within the container 
+    without exceeding ddimension..it resizes images proportionally between the image and its container 
+    cover..The image will be scaled to cover the entire container, potentially cropping portions of the image 
+    to maintain its aspect ratio.
+    none... uses the natural size and the position will be used
+    
+    scale-down: The image will be scaled down if it is larger than the container, but it will not be scaled up.*/
     border-radius: 10px;
   }
   
   .gallery::after {
-    content: "";
+    /*:after .. In CSS, the ::after pseudo-element is used to insert content after the content of the selected element.
+This means that whatever content you specify with the content property will be placed at the end of the element's content.
+
+Here are some common use cases for ::after:
+
+Adding decorative elements: You can use ::after to add decorative elements like borders, backgrounds, or icons to the end of an element.
+Creating custom markers: You can create custom markers or bullets for lists or other elements.
+Generating content dynamically: You can use ::after to generate content dynamically based on specific conditions or calculations.*/
+    content: ""; /*
+    used to specify content of a generated text
+    Generated content is content that is not explicitly written in the HTML but
+     is created dynamically by the browser based on CSS rules.*/
     width: 350px;
+
   }
   
